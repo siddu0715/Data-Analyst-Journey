@@ -9,4 +9,4 @@ def oddeven(nums):
     return even_count, odd_count
 nums=[int(x) for x in input("Enter numbers separated by space: ").split()]
 result = oddeven(nums)
-print(result)
+print("Even numbers:", result[0])
