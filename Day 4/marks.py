@@ -1,0 +1,11 @@
+import numpy as np
+marks = np.array([75, 82, 91, 68, 88, 95, 72])
+print("sum", np.sum(marks))
+print("mean", np.mean(marks))
+print("min", np.min(marks))
+print("max", np.max(marks))
+print("std", np.std(marks))
+print(marks[marks > 70])
+arr = np.arange(1, 13)
+matrix = arr.reshape(3, 4)
+print(matrix)
