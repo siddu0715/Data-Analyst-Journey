@@ -1,0 +1,12 @@
+import pandas as pd
+df=pd.read_csv("Employee.csv")
+print(df)
+print(df.head())
+print(df.tail())
+print(df.columns)
+print(df["Education"].count())
+print(df["City"].unique())
+print(df["City"].value_counts())
+print(df["Salary"].mean())
+print(df["Salary"].max())
+print(df["ExperienceInCurrentDomain"].mean())
